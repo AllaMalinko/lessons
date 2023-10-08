@@ -1,0 +1,51 @@
+@import url("reset.css");
+/*Типи селекторвів*/
+* {
+	color: red;
+}
+p {
+	color: orange;
+}
+li {
+	color: aquamarine;
+}
+a {
+	color: red;
+}
+.first__view {
+	color: blueviolet;
+}
+#innovation {
+	color: black;
+}
+/*Комбінації селекторів*/
+div.position {
+	color: greenyellow;
+}
+.move {
+	color: rgb(123, 202, 242);
+}
+.move__text,.inno__text{
+	color: rgb(249, 206, 141);
+}
+.many__links a {
+	color: rgb(128, 0, 255);
+}
+.price .price__text {
+	color: rgb(197, 248, 248);
+}
+.motor__text * {
+	color: rgb(121, 82, 24);
+}
+.lorem > p {
+	color: rgb(134, 148, 230);
+}
+.lorem ~ p {
+	color: black;
+}
+.lorem + p {
+	color: bisque;
+}
+[class*="text"] {
+	color: rgb(244, 250, 68);
+}
