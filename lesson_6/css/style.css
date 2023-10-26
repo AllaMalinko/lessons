@@ -90,10 +90,10 @@ footer p{
 .j-ear{
 	margin-right: 22px;
 }
-section{
+.experiments{
 	background-color: aquamarine;
 }
-section p{
+.experiments p{
 	max-width: 30%;
 	/*margin: 10% auto;*/
 	padding: 20px;
