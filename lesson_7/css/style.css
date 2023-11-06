@@ -1,0 +1,183 @@
+
+@import url("fonts.css");
+
+@import url("reset.css");
+header{
+	max-width: 1218px;
+	margin: 0 auto;
+	font-family: 'Inter', sans-serif;
+	font-size: 18px;
+	color: #7D7D7D;
+	line-height: 1.46;
+	
+}
+.square{
+	background-color: #40DDB6;
+	width: 12px;
+	height: 12px;
+	display: inline-block;
+
+	
+}
+.sub-title{
+	color: #37393F;
+	font-weight: 500;
+	font-size: 18px;
+	display: inline-block;
+	text-transform: capitalize;
+	
+}
+h1{
+	color: #37393F;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 700;
+	font-size: 60px;
+	line-height: 1.21;
+	text-transform: capitalize;
+}
+.title{
+	text-align: center;
+	margin-bottom: 70px;
+}
+.line-title{
+	margin-bottom: 25px;
+}
+
+header h2{
+	color: #37393F;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 700;
+	font-size: 40px;
+	line-height: 1.21;
+	text-transform: capitalize;
+	margin-bottom: 11px;
+}
+/*в макеті від р до заголовку в основному 24 px і 
+тільки в одному місці 32, схожу на помилку*/
+.text{
+	margin-bottom: 24px;
+}
+h3{
+	color: #37393F;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 700;
+	font-size: 30px;
+	line-height: 1.21;
+	text-transform: capitalize;
+	
+}
+.span-title{
+	font-weight: 400;
+	color: #40DDB6;
+}
+.block{
+	margin-bottom: 100px;
+}
+.span-text{
+	color: #40DDB6;
+	text-transform: capitalize;
+}
+.span-font{
+	color: #40DDB6;
+	font-weight: 500;
+	text-transform: capitalize;
+}
+
+/*---------------------main-----------------*/
+main{
+	max-width: 830px;
+	margin: 0 auto;
+	font-family: 'Inter', sans-serif;
+	font-size: 18px;
+	color: #7D7D7D;
+	line-height: 1.46;
+}
+main h2{
+	margin-bottom: 13px;
+}
+.text p,ul,li,ol{
+	margin-bottom: 35px;
+}
+ol,ul{
+	margin-left: 16px;
+}
+
+/*---------------------div.euphoria-----------------*/
+
+
+.title-eu h2{
+	font-family: 'Core Sans C', sans-serif;
+	font-size: 28px;
+	font-weight: 700;
+	line-height: 1.19;
+	color: #3C4242;
+	display: inline-block;
+
+}
+.vertical-line{
+	background-color: #8A33FD;
+	height: 28px;
+	width: 6px;
+	border-radius: 10px;
+	display: inline-block;
+	
+}
+.text-eu{
+	font-family: 'Causten', sans-serif;
+	font-size: 20px;
+	font-weight: 400;
+	color: #807D7E;
+	line-height: 1.67;
+	margin-bottom: 25px;
+}
+.text-eu p{
+	margin-bottom: 20px;
+}
+.euphoria h3{
+	font-family: 'Core Sans C', sans-serif;
+	font-size: 20px;
+	font-weight: 600;
+	color: #807D7E;
+	line-height: 1.67;
+	margin-bottom: 25px;
+
+}
+.span-eu{
+	font-weight: 700;
+}
+.euphoria{
+	max-width: 1240px;
+	margin: 0 auto;
+}
+.block-eu-text{
+	margin-left: 21px;
+}
+
+/*---------------------footer-----------------
+тут у мене чомусь шрифи жирніший у браузері ніж на фігмі і у колег.
+від того не вистачае ширини 503px */
+.text-block{
+	max-width: 503px;
+	font-family: 'Cormorant Infant', serif;
+	font-weight: 700;
+}
+.decor{
+	color: #D58417;
+	text-transform: uppercase;
+	line-height: 1;
+	font-size: 20px;
+	
+}
+footer h2{
+	font-family: 'Cormorant Infant', serif;
+	color: #000;
+	font-size: 64px;
+	line-height: 1;
+	
+}
+.text-block p{
+	font-size: 30px;
+	line-height: 1.4;
+	color: #606060;
+	
+}
