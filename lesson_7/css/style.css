@@ -153,26 +153,36 @@ ol,ul{
 	margin-left: 21px;
 }
 
-/*---------------------footer-----------------
-тут у мене чомусь шрифи жирніший у браузері ніж на фігмі і у колег.
-від того не вистачае ширини 503px */
+/*---------------------footer----------------- */
+
+footer{
+	max-width: 1103px;
+	margin: 0 auto;
+	
+}
+
 .text-block{
 	max-width: 503px;
 	font-family: 'Cormorant Infant', serif;
 	font-weight: 700;
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 75px;
 }
 .decor{
 	color: #D58417;
 	text-transform: uppercase;
 	line-height: 1;
 	font-size: 20px;
+	margin-bottom: 27px;
 	
 }
 footer h2{
-	font-family: 'Cormorant Infant', serif;
+	
 	color: #000;
 	font-size: 64px;
 	line-height: 1;
+	margin-bottom: 31px;
 	
 }
 .text-block p{
@@ -180,4 +190,84 @@ footer h2{
 	line-height: 1.4;
 	color: #606060;
 	
+}
+.divimg-one,.divimg-two{
+	vertical-align: middle;
+	border: 1px solid #502203;
+	border-radius: 235px;
+	display: inline-block;
+
+}
+.divimg-one{
+	margin-right: 20px;
+}
+.img-block{
+	display: inline-block;
+	margin-bottom: 300px;
+	
+}
+.img-one{
+	padding: 14px 10px;
+   margin: 0 0 -28px -20px;
+}
+.img-two{
+	padding: 19px 11px;
+	margin: 0 0 -38px -22px;
+}
+
+/*---------------------experement----------------- */
+
+.border{
+	height: 150px;
+	width: 300px;
+	background-color: #606060;
+	margin-left: 10%;
+	margin-bottom: 50px;
+	border-bottom: 10px solid #D58417;
+	border-top: 10px dotted #33f0fd;
+	display: inline-block;
+}
+.outline{
+	height: 150px;
+	width: 300px;
+	background-color: #606060;
+	margin-left: 10%;
+	margin-bottom: 50px;
+	display: inline-block;
+	outline: 10px dotted #33f0fd;
+	/*border-radius: 5px 20px 10px 0;*/
+	border-radius: 5% 20% 10% 0;
+
+}
+.shadow-one{
+	height: 150px;
+	width: 300px;
+	background-color: #606060;
+	margin-left: 10%;
+	margin-bottom: 50px;
+	display: inline-block;
+	box-shadow: -7px 6px 17px 9px #D58417;
+}
+.shadow-inset{
+	height: 150px;
+	width: 300px;
+	background-color: #606060;
+	margin-left: 10%;
+	margin-bottom: 50px;
+	box-shadow: inset -7px 6px 17px 9px #D58417;
+	display: inline-block;
+}
+.opacity{
+	height: 150px;
+	width: 300px;
+	background-color: #55ae22;
+	margin-left: 50px;
+	margin-bottom: 50px;
+	opacity: 0.3;
+	
+}
+.cat{
+	width: 300px;
+	margin-top: -150px;
+	margin-left: 50px;
 }
