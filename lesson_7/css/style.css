@@ -4,7 +4,7 @@
 @import url("reset.css");
 header{
 	max-width: 1218px;
-	margin: 0 auto;
+	margin: 0 auto 100px;
 	font-family: 'Inter', sans-serif;
 	font-size: 18px;
 	color: #7D7D7D;
@@ -86,7 +86,7 @@ h3{
 /*---------------------main-----------------*/
 main{
 	max-width: 830px;
-	margin: 0 auto;
+	margin: 0 auto 25px;
 	font-family: 'Inter', sans-serif;
 	font-size: 18px;
 	color: #7D7D7D;
@@ -94,12 +94,17 @@ main{
 }
 main h2{
 	margin-bottom: 13px;
+	font-family: 'Poppins', sans-serif;
+	color: #37393F;
+   font-size: 40px;
+   font-weight: 700;
+   line-height: 1.27;
 }
 .text p,ul,li,ol{
 	margin-bottom: 35px;
 }
 ol,ul{
-	margin-left: 16px;
+	padding-left: 16px;
 }
 
 /*---------------------div.euphoria-----------------*/
@@ -133,7 +138,7 @@ ol,ul{
 .text-eu p{
 	margin-bottom: 20px;
 }
-.euphoria h3{
+.euphoria h3,a{
 	font-family: 'Core Sans C', sans-serif;
 	font-size: 20px;
 	font-weight: 600;
@@ -150,14 +155,14 @@ ol,ul{
 	margin: 0 auto;
 }
 .block-eu-text{
-	margin-left: 21px;
+	padding-left: 21px;
 }
 
 /*---------------------footer----------------- */
 
 footer{
 	max-width: 1103px;
-	margin: 0 auto;
+	margin: 0 auto 300px;
 	
 }
 
@@ -203,7 +208,7 @@ footer h2{
 }
 .img-block{
 	display: inline-block;
-	margin-bottom: 300px;
+	
 	
 }
 .img-one{
