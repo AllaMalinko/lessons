@@ -1,0 +1,45 @@
+@import url("reset.css");
+
+
+.test-one{
+	width: 500px;
+	padding: 20px;
+	background-color: blanchedalmond;
+}
+.test-two{
+	/*width: 500px;*/
+	/*height: 1000px;*/
+	height: 300px;
+	padding: 20px;
+	background-image: url(../img/cors.jpg);
+	background-repeat: no-repeat;
+	/*
+	background-repeat: repeat-x;
+	background-repeat: repeat-y;
+	*/
+	/*background-position: center;*/
+background-attachment: fixed;
+}
+.test-three{
+width: 1000px;
+height: 900px;
+padding: 30px;
+/*background-color: beige;*/
+background-image: url("../img/cors.jpg");
+/*background-position: 100% 100%;*/
+background-repeat: no-repeat;
+background-position: top;
+}
+.test-four{
+	background-image: url("../img/cors.jpg");
+	background-repeat: no-repeat;
+	/*background-size: 400px 200px;*/
+	background-size: auto 400px;
+	height: 500px;
+}
+.test-five{
+	height: 500px;
+	width: 700px;
+	padding: 20px;
+	background:url("../img/cors.jpg") center /auto 400px no-repeat, linear-gradient(58deg, rgba(2,0,36,1) 0%, rgba(152,8,164,1) 47%, rgba(0,212,255,1) 100%) 0 0/ 200px 400px fixed;
+}
