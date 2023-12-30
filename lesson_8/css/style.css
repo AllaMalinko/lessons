@@ -1,3 +1,5 @@
+
+@import url("fonts.css");
 @import url("reset.css");
 
 
@@ -42,4 +44,273 @@ background-position: top;
 	width: 700px;
 	padding: 20px;
 	background:url("../img/cors.jpg") center /auto 400px no-repeat, linear-gradient(58deg, rgba(2,0,36,1) 0%, rgba(152,8,164,1) 47%, rgba(0,212,255,1) 100%) 0 0/ 200px 400px fixed;
+	margin-bottom: 100px;
+}
+
+.dz1{
+	font-family: 'Inter', sans-serif;
+	font-size: 18px;
+	font-weight: 400;
+	color: #7D7D7D;
+	margin: 100px auto;
+	max-width: 673px;
+}
+.dz1 h4{
+	background-image: url('../img/Rectangle.png');
+	background-repeat: no-repeat;
+	background-position: left center;
+	font-weight: 500;
+	color: #37393F;
+	text-transform: capitalize;
+	padding-left: 18px;
+	margin-bottom: 16px;
+}
+.dz1 h2{
+color: #37393F;
+text-transform: capitalize;
+font-weight: 700;
+font-size: 40px;
+max-width: 70%;
+line-height: 1.21;
+margin-bottom: 10px;
+}
+.text p{
+	line-height: 1.46;
+	margin-bottom: 16px;
+}
+.dz1 .text{
+	margin-bottom: 48px;
+}
+.block-vision h3{
+	background-image: url('../img/galochka.png');
+	background-repeat: no-repeat;
+	min-height: 27px;
+	padding-left: 46px;
+	line-height: 1.5;
+	font-family: 'Poppins', sans-serif;
+	font-size: 20px;
+	font-weight: 600;
+	color: #37393F;
+	margin-bottom: 12px;
+	text-transform: capitalize;
+}
+.block-vision{
+	padding: 38px 28px;
+	border: 1px solid #E3E3E3;
+	margin-bottom: 31px;
+}
+.block-vision p{
+	line-height: 1.46;
+}
+.block-misions{
+	margin-bottom: 48px;
+}
+.button{
+	padding: 21px 35px;
+	background-color: #6B77E5;
+	background-repeat: no-repeat;
+	max-width: 200px;
+	font-weight: 600;
+	color: #FFFFFF;
+	line-height: 1.22;
+	text-transform: capitalize;
+}
+
+.dz2{
+	font-family: 'Inter', sans-serif;
+	font-size: 18px;
+	font-weight: 400;
+	color: #7D7D7D;
+	max-width: 80%;
+	margin: 0 auto;
+	margin-bottom: 100px;
+	}
+	.block-head{
+		max-width: 50%;
+		margin:0 auto 47px;
+	}
+	.block-head h4{
+		background-image: url('../img/Rectangle.png');
+	background-repeat: no-repeat;
+	background-position: 0 center;
+	font-weight: 500;
+	color: #37393F;
+	text-transform: capitalize;
+	padding-left: 18px;
+	margin: 0 auto 14px;
+	width: 22%;
+	}
+	.block-head h2{
+		color: #37393F;
+		font-weight: 700;
+		font-size: 40px;
+		line-height: 1.21;
+		margin: 0 auto 14px;
+		width: 90%;
+
+	}
+	.block-head p{
+		text-align: center;
+	}
+
+	.img-monitor{
+		background-image: url('../img/monitor.png');
+		width: 384px;
+		height: 501px;
+		margin-bottom: 24px ;
+	}
+.block-img h3{
+	font-family: 'Poppins', sans-serif;
+	color: #37393F;
+	font-size: 20px;
+	font-weight: 600;
+	line-height: 1.27;
+	margin-bottom: 10px;
+}
+.date{
+	font-size: 14px;
+	line-height: 1.46;
+	background-image: url('../img/calendar.svg');
+	background-repeat: no-repeat;
+	background-position: 0 center;
+	padding-left: 26px;
+}
+.block-img-item, .block-img-item-middle{
+	display: inline-block;
+}
+.first-line{
+	margin-bottom: 58px;
+}
+.img-man{
+	background-image: url('../img/man.png');
+		width: 384px;
+		height: 501px;
+		margin-bottom: 24px ;
+
+}
+.img-mobile{
+	background-image: url('../img/mobile.png');
+		width: 384px;
+		height: 501px;
+		margin-bottom: 24px ;
+}
+.img-women{
+	background-image: url('../img/women.png');
+		width: 384px;
+		height: 501px;
+		margin-bottom: 24px ;
+}
+.img-analytics{
+	background-image: url('../img/analytics.png');
+		width: 384px;
+		height: 501px;
+		margin-bottom: 24px ;
+}
+.img-coffe{
+	background-image: url('../img/coffe.png');
+		width: 384px;
+		height: 501px;
+		margin-bottom: 24px ;
+}
+.block-img-item-middle{
+	margin: 0 5%;
+}
+.block-img{
+	max-width: 85%;
+	margin: 0 auto;
+}
+
+.dz3{
+	max-width: 90%;
+	margin: 0 auto 100px;
+}
+.fon{
+	height: 639px;
+	width: 1228px;
+	margin: 0 auto;
+	background: url('../img/jungl.png') no-repeat, url('../img/people.png') 100% 100% no-repeat;
+}
+.fon h2{
+	color: #FFFFFF;
+	font-family: 'Core Sans C', sans-serif;
+	font-size: 34px;
+	font-weight: 850;
+	max-width: 40%;
+	line-height: 1.47;
+	text-transform: uppercase;
+	letter-spacing: 0.208px;
+	margin-bottom: 30px;
+
+}
+h6{
+	color: #FFFFFF;
+	font-family: 'Causten', sans-serif;
+	font-weight: 300;
+	font-size: 20px;
+	letter-spacing: 1px;
+	max-width: 40%;
+	line-height: 1.2;
+	margin-bottom: 50px;
+}
+.button-eu{
+	color: #3C4242;
+	background-color: #FFFFFF;
+	background-repeat: no-repeat;
+	width: 168px;
+	padding: 12px 44px;
+	border-radius: 8px;
+	font-size: 18px;
+	font-weight: 600;
+	line-height: 1.22;
+}
+.text-item{
+	padding: 155px 74px
+	
+}
+
+.dz4{
+	font-family: 'Causten', sans-serif;
+	font-size: 20px;
+	font-weight: 400;
+	color: #807D7E;
+	width: 80%;
+	margin: 0 auto;
+	
+}
+.dz4 h2{
+	font-family: 'Core Sans C', sans-serif;
+	font-size: 28px;
+	font-weight: 600;
+	line-height: 1.2;
+	color: #3C4242;
+	margin-bottom: 30px;
+	background: url('../img/palochka.png') 0 center no-repeat;
+	min-height: 28px;
+	padding-left: 21px;
+
+}
+.text-box{
+	margin: 0 0 100px 21px;
+}
+.dz4 h3{
+	font-family: 'Core Sans C', sans-serif;
+	
+	font-weight: 600;
+	line-height: 1.67;
+	margin-bottom: 25px;
+}
+.text-paragraf p{
+	line-height: 1.67;
+	margin-bottom: 20px;
+}
+.text-paragraf{
+	margin-bottom: 25px;
+}
+span{
+	font-weight: 700;
+}
+.link{
+	font-family: 'Core Sans C', sans-serif;
+	font-weight: 600;
+	line-height: 1.67;
 }
