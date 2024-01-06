@@ -364,6 +364,7 @@ margin-bottom: 16px;
 	background-color: #4b5beb;
 	font-size: 19px;
 	padding: 20px 32px;
+	
 }
 
 
@@ -468,17 +469,18 @@ margin: -94px auto 22px;
 			margin: 0 auto;
 			color: #000000;
 			font-family: "Cormorant Infant", serif;
-		}
-		.dz4-title{
+			font-size: 0;
 			
 		}
-		
+				
 		.dz4 h2{
 			width: 488px;
 			font-size: 60px;
 			line-height: 1.15;
 			font-weight: 700;
 			display: inline-block;
+			padding-top: 150px;
+		
 			
 		}
 		.dz4 h2::after{
@@ -489,4 +491,51 @@ margin: -94px auto 22px;
 			background-color: #78473B;
 			margin-top: 13px;
 
+		}
+		.dz4 a{
+			display: inline-block;
+			
+		}
+		.dz4 a:not(:last-child){
+			margin-right: 45px;
+		}
+		.img-title h4{
+			font-size: 24px;
+			line-height: 1.4;
+			font-weight: 700;
+		}
+		.img-title h3:not(:last-child){
+			margin-bottom: 4px;
+		}
+
+
+		.img1,.img2{
+			border: 1px solid #000000;
+			margin-bottom: 34px;
+		}
+		.img1 img,.img2 img{
+			display: block;
+			margin: 9px -10px -9px 10px;
+		}
+
+		.img-subtitle h3{
+			width: 340px;
+			font-size: 46px;
+			line-height: 1.15;
+			font-weight: 700;
+			
+		}
+		.img2-block-subtitle{
+			display: inline-block;
+		}
+		.dz4 a,.dz4 .img2-block-subtitle{
+			vertical-align: top;
+		}
+		.dz4 a:hover img{
+			margin: 0;
+			transition: all 0.8s;
+		}		
+		.dz4 a:hover h4{
+			font-size: 25px;
+			transition: all 0.8s;
 		}
